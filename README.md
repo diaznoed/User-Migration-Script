@@ -1,5 +1,5 @@
 # User-Migration-Script
-The script is used for automating the migration of users in ArcGIS Enterprise. It only does viewers accounts, as creator accounts should be handled manually due to group ownership. 
+The script is used for automating the migration of users in ArcGIS Enterprise. It only does viewers accounts, as creator accounts should be handled manually due to group ownership. You will run the scripts in order of the numbering in the title. Additionally, keep the csv files as placeholders for the script. 
 
 ---
 
