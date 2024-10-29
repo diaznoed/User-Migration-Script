@@ -98,7 +98,7 @@ def portal_token():
 
 # Function to log successful migrations
 def log_migration(old_gs, new_gs, old_idp, new_idp):
-    migration_csv = fr"/path/to/output/geostate_user_migration_{dtg}.csv"  # <--- Update this path
+    migration_csv = fr"/path/to/output/user_migration_{dtg}.csv"  # <--- Update this path
     with open(migration_csv, 'a', newline='') as log:
         writer = csv.writer(log)
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
