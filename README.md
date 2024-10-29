@@ -4,7 +4,7 @@ The script is used for automating the migration of users in ArcGIS Enterprise. I
 ---
 
 ### **Description:**
-The script is used for automating the migration of users in ArcGIS Enterprise. It performs several tasks such as fetching users, identifying duplicates, checking for existing accounts, migrating users to the correct user type and groups, logging successful and failed migrations, and sending email notifications with CSV reports.
+The script is used for automating the migration of users in ArcGIS Enterprise. It performs several tasks such as fetching users, identifying duplicates, checking for existing accounts, migrating users to the correct user type and groups, logging successful and failed migrations, and sending email notifications with CSV reports. The enrichment ps1 script purpose is AD enrich the migration and failed migration users. 
 
 ### **Key Features:**
 - **User Migration**: Automatically identifies and migrates users from one domain to another (e.g., from "idpUsername" to "\domain").
