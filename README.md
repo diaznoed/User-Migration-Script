@@ -7,7 +7,7 @@ The script is used for automating the migration of users in ArcGIS Enterprise. I
 The script is used for automating the migration of users in ArcGIS Enterprise. It performs several tasks such as fetching users, identifying duplicates, checking for existing accounts, migrating users to the correct user type and groups, logging successful and failed migrations, and sending email notifications with CSV reports.
 
 ### **Key Features:**
-- **User Migration**: Automatically identifies and migrates users from one domain to another (e.g., from "idpUsername" to "STATE").
+- **User Migration**: Automatically identifies and migrates users from one domain to another (e.g., from "idpUsername" to "\domain").
 - **Handling Duplicate Accounts**: Detects duplicate user accounts and processes them accordingly.
 - **Logging**: Logs every migration or failure in CSV files for auditing and tracking.
 - **Email Notifications**: Sends reports via email once migrations are completed.
